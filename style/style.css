@@ -1,0 +1,122 @@
+body
+{
+    background-color: seashell;
+}
+.top
+{
+    text-align: center;
+}
+
+#submit
+{
+    float: right;
+    margin-bottom: 20%;
+    margin-right: 10%;
+    margin-top: 0%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(129, 228, 245);
+    border-radius: 3px;
+    width: 15%;
+    height: 7%;
+}
+#submit:hover{
+    background-color: rgb(133, 241, 83);
+    color: whitesmoke;
+}
+form{
+    position: relative;
+    left: 25%; 
+    border: 3px solid black;
+    padding: 50px;
+    width: 50%;
+    height: auto;
+}
+.all{
+    border: 1 1 1 1;
+    width: 50%;
+    height: 5%;
+    border-color: black;
+    margin-top: 8%;
+}
+
+
+.foot
+{
+    margin-top: 10%;
+    text-align: left;
+}
+#name1
+{
+    color: red;
+    visibility: hidden;
+}
+#name2
+{
+    color: red;
+    visibility: hidden;
+}
+#fathername1
+{
+    color: red;
+    visibility: hidden;
+}
+#fathername2
+{
+    color: red;
+    visibility: hidden;
+}
+#email1
+{
+    color: red;
+    visibility: hidden;
+}
+#email2
+{
+    color: red;
+    visibility: hidden;
+}
+#mobileno1
+{
+    color: red;
+    visibility: hidden;
+}
+#mobileno2
+{
+    color: red;
+    visibility: hidden;
+}
+#dateofbirth1
+{
+    color: red;
+    visibility: hidden;
+}
+#dateofbirth2
+{
+    color: red;
+    visibility: hidden;
+}
+#address1
+{
+    color: red;
+    visibility: hidden;
+}
+#paraaddress1
+{
+    color: red;
+    visibility: hidden;
+}
+#paradistric1
+{
+    color: red;
+    visibility: hidden;
+}
+#parapincode1
+{
+    color: red;
+    visibility: hidden;
+}
+#parapincode2
+{
+    color: red;
+    visibility: hidden;
+}

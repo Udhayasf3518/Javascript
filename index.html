@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>JavaScript Assignment</title>
+        
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+
+        <div class="top">
+
+            <h1>Submit your Application</h1>
+            <p>for <b>.NET Developer (Fresher)</b></p>
+
+        </div>
+        
+
+        <form>
+
+            <div class="First">
+
+                <div class="all">
+                    <label id="Lname" for="nameasidproof">Name as per ID proof * </label>
+                    <label id="name2">required </label>
+                    <label id="name1">Empty Values,Special Character & Numbers are Not Allowed </label><br>
+                    <input type="text" id="name" name="Name as per ID proof" placeholder="Name as per ID proof">
+                    <br><br>
+
+                </div><br>
+
+                <div class="all">
+                    <label for="fathername">Father's Name * </label>
+                    <label id="fathername2">required </label>
+                    <label id="fathername1">Empty Values,Special Character & Numbers are Not Allowed </label><br><br>
+                    <input type="text" id="fathername" name="Father's Name" placeholder="Father's Name"><br><br>
+
+                </div>
+
+
+            </div> 
+
+            <div class="Second">
+
+                
+                <div class="all">
+
+                    <label for="email">Email * </label>
+                    <label id="email2">required </label>
+                    <label id="email1">Please enter a valid Email Id </label><br><br>
+                    <input type="email" id="email" name="Email" placeholder="Email"><br><br>
+                </div>
+
+                <div class="all">
+                    
+                <label for="dateodbirth">Date Of Birth * </label>
+                <label id="dateofbirth2">required </label>
+                <label id="dateofbirth1">Please enter a Date of Birth in valid Format </label><br><br>
+                <input type="text" id="dob" name="Date Of Birth" placeholder="Day - Month - Year"><br><br>
+
+                </div>
+
+
+                <div class="all">
+
+                <label for="mobileno">Mobile No *</label>
+                <label id="mobileno2">required </label>
+                <label id="mobileno1">Please enter a valid Phone Number </label><br><br>
+                <input type="text" id="mobileno" name="MobileNo" min="1" max="10" placeholder="Enter your MobileNumber"><br><br>
+                    
+                </div>
+
+            </div>
+
+            <div>
+                <div class="all">
+
+                    <label for="address">Current Address * </label>
+                    <label id="address1">Please enter a Address </label><br><br>
+                    <input type="text" id="address" name="Current Address" placeholder="Address line 1">
+                </div >
+                    
+                <div class="all">
+
+                    <label for="distric"></label><br>
+                    <input type="text" id="distric" name="Distric" placeholder="City">
+                    
+                </div>
+
+                <div class="all">
+
+                    <label for="state"></label>
+                    <select name="State" id="state">
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Karnataka">Karnataka</option>
+                    </select>
+
+                </div>
+
+                <div class="all">
+
+                    <label for="pincode"> </label><br>
+                    <input type="text" id="pincode" name="Pincode" min="1" max="6" placeholder="Pincode"><br>
+                        
+                </div>
+            </div>
+
+            <div class="all">
+
+                <input type="radio" id="SameAddress" name="Same as Current Address">
+                <label for="same as Current address">Same as Current Address</label>
+
+            </div><br><br>
+
+            <div class="all">
+
+                <label for="address">Permanaent Address * </label>
+                <label id="paraaddress1">Address is required </label><br><br>
+                <input type="text" id="paraddress" name="permanent Address" placeholder="Address line 1"><br><br>
+            </div>
+                
+            <div class="all">
+
+                <label for="distric"> </label>
+                <label id="paradistric1">City is required </label><br>
+                <input type="text" id="pardistric" name="Distric" placeholder="City"><br>
+                
+            </div>
+
+            <div class="all">
+
+                <label for="state"></label>
+                <select name="State" id="parstate">
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Karnataka">Karnataka</option>
+                </select><br>
+
+            </div>
+
+            <div class="all">
+
+                <label for="pincode">*</label>
+                <label id="parapincode1">Zip code is required</label>
+                <label id="parapincode2">Invalid Zip Code</label><br><br>
+                <input type="text" id="parpincode" name="Pincode" min="1" max="6" placeholder="Zip Code"><br><br>
+                    
+            </div>
+
+            <div class="foot">
+
+                <p>Upload Profile Photo *(JPG/PNG only)</p>
+                <p>Please upload a photo of yourself. Your face should be clearly visible. Make sure the image size does not exceed 500KB</p>
+
+            </div><br>
+
+            <div class="photo">
+
+                <input id="photo" type="file">
+                <label for="photo">Upload your profile photo *</label><br><br>
+
+            </div>
+
+        
+
+            <button onclick="Do()" type="button" id="Submit">Submit</button>
+
+            <script src="script/script.js"></script>
+
+
+        </form>
+    </body>
+</html>
